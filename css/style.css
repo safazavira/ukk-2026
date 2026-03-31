@@ -1,0 +1,234 @@
+* {
+	padding:0;
+	margin:0;
+	font-family: 'Quicksand', sans-serif;
+}
+body {
+	margin:0;
+	font-family: Arial;
+}
+
+#bg-login {
+	display:flex;
+	height:100vh;
+	justify-content:center;
+	align-items:center;
+	background:linear-gradient(#b1c9ef);
+}
+
+.box-login {
+	width:320px;
+	background:#fff;
+	padding:25px;
+	border-radius:10px;
+	box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+.box-login h2{
+	text-align:center;
+	margin-bottom:20px;
+}
+
+.input-control{
+	width:100%;
+	padding:12px;
+	margin-bottom:15px;
+	border:1px solid #ddd;
+	border-radius:6px;
+	box-sizing:border-box;
+}
+
+.btn{
+	width:100%;
+	padding:12px;
+	background:#395886;
+	color:#fff;
+	border:none;
+	border-radius:6px;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+/* HEADER */
+header{
+    background:#1f3c88;
+    padding:20px 0;
+    color:#fff;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.container{
+    width:85%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h1{
+    font-size:24px;
+}
+
+/* LOGOUT BUTTON */
+.btn-logout{
+    padding:8px 18px;
+    background:#ff4d4d;
+    color:#fff;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+/* CARD BOX */
+.main{
+    display:flex;
+    justify-content:center;
+    margin-top:80px;
+}
+
+.box{
+    background:#fff; 
+    width:500px;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 15px 35px black;
+    text-align:center;
+}
+
+.box h3{
+    font-size:22px;
+    margin-bottom:10px;
+    color:#395886;
+}
+
+.box p{
+    font-size:16px;
+    margin-bottom:8px;
+    color:#444;
+}
+
+/*ADMIN*/
+.table-admin{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.table-admin th,
+.table-admin td{
+    padding:12px;
+    border-bottom:1px solid #ddd;
+    text-align:left;
+}
+
+.table-admin th{
+    background:#395886;
+    color:#fff;
+}
+
+.btn-kembali{
+    background:#395886;
+    color:#fff;
+    padding:8px 15px;
+    border-radius:6px;
+    text-decoration:none;
+}
+
+/* DASHBOARD MENU */
+.dashboard-menu{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-top:40px;
+}
+
+.menu-card{
+    background:#fff;
+    width:220px;
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 10px 20px black;
+    transition:0.3s;
+}
+
+.menu-card:hover{
+    transform:translateY(-5px);
+}
+
+.menu-card h4{
+    margin-bottom:10px;
+    color:#395886;
+}
+
+
+.menu-card a{
+    display:inline-block;
+    padding:8px 18px;
+    background:#395886;
+    color:white;
+    border-radius:6px;
+    text-decoration:none;
+}
+
+.menu-card a:hover{
+    background:#2c3e70;
+}
+
+/* halaman data aspirasi */
+.body-aspirasi{
+    font-family: Arial, sans-serif;
+    background:#6d96d3;
+}
+
+.judul{
+    text-align:center;
+    margin-top:30px;
+}
+
+.tabel{
+    width:80%;
+    margin:30px auto;
+    border-collapse:collapse;
+    background:white;
+}
+
+.tabel th{
+    background:#2c3e50;
+    color:white;
+    padding:10px;
+}
+
+.tabel td{
+    border:1px solid #ccc;
+    padding:10px;
+    text-align:center;
+}
+
+.tabel tr:nth-child(even){
+    background:#f2f2f2;
+}
+
+/*tambahan histori*/
+table{
+    width:100%;
+    border-collapse: collapse;
+    margin-top:20px;
+}
+
+table th{
+    background:#2c3e50;
+    color:white;
+    padding:10px;
+    text-align:center;
+}
+
+table td{
+    padding:10px;
+    border:1px solid #ddd;
+}
+
+table tr:nth-child(even){
+    background:#f2f2f2;
+}
